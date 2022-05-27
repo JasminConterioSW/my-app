@@ -7,6 +7,8 @@ export const CultureFusion = () => {
             <a id="culture-fusion-heading"><h2>A fusion of cultures</h2></a>
 
             More stuff!
+
+            <hr/>
         </div>
     )
 }
