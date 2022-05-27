@@ -2,6 +2,7 @@ import './css/main.css';
 import {Intro} from "./Components/Intro";
 import {CultureFusion} from "./Components/CultureFusion";
 import React from "react";
+import {CirclePictures} from "./Components/CirclePictures";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
         <Intro />
         <CultureFusion />
+        <CirclePictures />
     </div>
   );
 }
