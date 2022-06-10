@@ -28,13 +28,22 @@ export const CultureFusion = () => {
 
             <div className="row">
                 <div className="column">
-                    <img src="https://picsum.photos/200/150" alt="stock image 1"/>
+                    <img
+                        src = {require("./Images/Chura.jpg")}
+                        alt="Chura"
+                    />
                 </div>
                 <div className="column">
-                    <img src="https://picsum.photos/200/150" alt="stock image 2"/>
+                    <img
+                        src = {require("./Images/Kaleere.JPG")}
+                        alt="Kaleere"
+                    />
                 </div>
                 <div className="column">
-                    <img src="https://picsum.photos/200/150" alt="stock image 3"/>
+                    <img
+                        src = {require("./Images/Tikka.jpg")}
+                        alt="Tikka"
+                    />
                 </div>
             </div>
 
