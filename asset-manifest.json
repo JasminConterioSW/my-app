@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.6c4ae000.css",
-    "main.js": "/my-app/static/js/main.f0b67c92.js",
+    "main.css": "/my-app/static/css/main.1fe3f1f8.css",
+    "main.js": "/my-app/static/js/main.94bd9008.js",
     "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Tikka.jpg": "/my-app/static/media/Tikka.64e961578c95198fa784.jpg",
+    "static/media/Circle_bird.JPG": "/my-app/static/media/Circle_bird.9b366624f6f9f1c2b74f.JPG",
+    "static/media/Full_dress_cropped.jpg": "/my-app/static/media/Full_dress_cropped.a1ae8d62a5282c1ec979.jpg",
+    "static/media/Chura.jpg": "/my-app/static/media/Chura.ce99e4176c2ec748b5b3.jpg",
+    "static/media/Kaleere.JPG": "/my-app/static/media/Kaleere.116e2a3532b54e86b769.JPG",
     "index.html": "/my-app/index.html",
-    "main.6c4ae000.css.map": "/my-app/static/css/main.6c4ae000.css.map",
-    "main.f0b67c92.js.map": "/my-app/static/js/main.f0b67c92.js.map",
+    "main.1fe3f1f8.css.map": "/my-app/static/css/main.1fe3f1f8.css.map",
+    "main.94bd9008.js.map": "/my-app/static/js/main.94bd9008.js.map",
     "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c4ae000.css",
-    "static/js/main.f0b67c92.js"
+    "static/css/main.1fe3f1f8.css",
+    "static/js/main.94bd9008.js"
   ]
 }
