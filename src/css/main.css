@@ -1,0 +1,107 @@
+.large-image {
+  height: 500px;
+}
+
+.medium-image {
+  width: 40%;
+}
+
+.three-column-image {
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+  background-color: cornsilk;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App2 {
+  text-align: center;
+  background-color: lightgrey;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Content {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.row {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.grid-item {
+  padding: 0.4rem;
+  width: 30%;
+}
+@media (min-width: 450px) and (max-width: 750px) {
+  .grid-item {
+    width: 45%;
+  }
+}
+@media (max-width: 450px) {
+  .grid-item {
+    width: 80%;
+  }
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  color: darkred;
+  padding-top: 40px;
+  margin-top: 0px;
+}
+
+h2 {
+  color: darkred;
+}
+
+h3 {
+  color: darkred;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 5px;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: goldenrod;
+  border-bottom: none;
+  width: 80%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: darkred;
+}
+
+p {
+  text-align: left;
+}
+
+/*# sourceMappingURL=main.css.map */

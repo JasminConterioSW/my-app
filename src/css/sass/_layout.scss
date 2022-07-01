@@ -1,4 +1,7 @@
 
+$large-screen-min: 750px;
+$small-screen-max: 450px;
+
 .App {
   text-align: center;
   background-color: cornsilk;
@@ -22,19 +25,21 @@
   margin-left: 10%;
 }
 
-.column {
-  float: left;
-  width: 30%;
-  padding: 5px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.row {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
-/* Clearfix (clear floats) */
-.row {
-  ::after {
-    content: "";
-    clear: both;
-    display: table;
+.grid-item {
+  padding: 0.4rem;
+  width: 30%;
+  @media (min-width: $small-screen-max) and (max-width: $large-screen-min) {
+    width: 45%;
   }
+  @media (max-width: $small-screen-max) {
+    width: 80%;
+  }
+
 }

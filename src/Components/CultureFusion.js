@@ -1,7 +1,11 @@
 import React from "react";
 import '../css/main.css';
+import '../ImageResizer';
+import {ResizeImage} from "../ImageResizer";
 
 export const CultureFusion = () => {
+    //ResizeImage("./Images/Chura.jpg")
+    
     return (
         <div className="Content" >
             <a id="culture-fusion-heading"><h3>A fusion of cultures</h3></a>
@@ -27,20 +31,23 @@ export const CultureFusion = () => {
             </p>
 
             <div className="row">
-                <div className="column">
+                <div className="grid-item">
                     <img
+                        className="three-column-image"
                         src = {require("./Images/Chura.jpg")}
                         alt="Chura"
                     />
                 </div>
-                <div className="column">
+                <div className="grid-item">
                     <img
+                        className="three-column-image"
                         src = {require("./Images/Kaleere.JPG")}
                         alt="Kaleere"
                     />
                 </div>
-                <div className="column">
+                <div className="grid-item">
                     <img
+                        className="three-column-image"
                         src = {require("./Images/Tikka.jpg")}
                         alt="Tikka"
                     />

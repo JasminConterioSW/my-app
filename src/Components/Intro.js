@@ -5,8 +5,7 @@ export const Intro = () => {
     return (
         <div className="Content">
             <img className = "large-image"
-                /* src = "https://lh3.googleusercontent.com/oL3V9GN-rwQ2zAByM4ykV30dy1YtWUoXFuYPjXxv0xdUoryZzpKOeOgsuYyK5FZdWSW_y2FOX3PuIhohONJOwTUYJon4AHSeAdCZnyUirPyOht3tqZcIcbPCXel0JeKRzQhONshFSg=w2400"
-*/               src = {require("./Images/Full_dress_cropped.jpg")}
+                 src = {require("./Images/Full_dress_cropped.jpg")}
                  alt = "Full length photo of wedding dress"
             />
 
